@@ -1,0 +1,14 @@
+
+@mixin transition($transition){
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-ms-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
+}
+/*
+也用同样方式替换
+transform-origin
+scale
+opacity
+*/
